@@ -1,0 +1,107 @@
+.ba1 {
+    background-image:url("../img/ba1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-blend-mode: multiply;
+    min-height: 700px;
+    background-color: rgb(97, 97, 97);
+}
+
+.textop {
+    position: relative;
+    top: 335px;
+    right: 100px;
+}
+
+.btnp {
+    background-color: rgba(62, 173, 64, 0.999);
+    border: none;
+}
+
+/*primer titulo*/
+.titulo h6 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.titulo h3 {
+    font-size: 2rem;
+}
+
+/*tarjetas*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.radio {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card {
+    margin: 15px;
+}
+
+.card p {
+    color: gray;
+    margin-top: 20px;
+}
+
+.card a {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*imagen y texto al lado*/
+.contenedor {
+    display: flex;
+    margin-top: 20px;
+}
+
+/*segundo titulo*/
+.titulo-secundario h6 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.decoracion {
+    text-decoration: underline dotted;
+}
+
+.titulo-secundario h3 {
+    font-size: 2rem;
+}
+
+.titulo-secundario p {
+    font-weight: 400;
+}
+
+/*formulario*/
+.form-floating {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.texto-abajo {
+    color: gray;
+    font-size: 0.90rem;
+}
+
+.btnu {
+    background-color: rgba(134, 193, 52, 0.968);
+    border: none;
+}
+
+/*pie de página*/
+.pie {
+    background: linear-gradient(to right, rgb(9, 31, 52), rgb(36, 82, 127));
+    margin-top: 20px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.pie a {
+    color: white;
+}
+
